@@ -1,0 +1,52 @@
+
+.container {
+  width: 870px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+.zoom-img {
+  position: relative;
+}
+
+.zoom-img-block {
+  width: 470px;
+  height: auto;
+  overflow: hidden;
+}
+
+.zoom-img-item {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+}
+.zoom-img-item img {
+  width: 100%;
+}
+.zoom-img-cursor {
+  border: 1px solid #ccc;
+  background: #fff;
+  opacity: .5;
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  width: 50px;
+  height: 50px;
+  display: none;
+}
+.zoom-img-overlay {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  display: none;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  background-image: none;
+  /* background-image: url(../img/c9d312638bdf3b44aba790b2df2ee03b.jpg); */
+  background-position: 0px -500px;
+  background-repeat: no-repeat;
+}
+
